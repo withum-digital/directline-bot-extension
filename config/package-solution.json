@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Withum AtBot Webpart",
+    "id": "c2f7a6b0-a21d-43d3-a5ed-30469cb72505",
+    "version": "1.2.1.1",
+    "iconPath": "gitIcon.png",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Withum AtBot Webpart",
+        "description": "A SharePoint Framework extension that deploys an AtBot chat interface to SharePoint pages.",
+        "id": "7c11b637-4464-4f40-b70c-cc4555c555d9",
+        "version": "1.1.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/withum-atbot-spfx-extension.sppkg"
+  }
+}
