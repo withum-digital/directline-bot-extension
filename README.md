@@ -5,6 +5,8 @@ This is a fork of the SpFx extension sample avilable at https://github.com/MickH
 
 A starting point SPFx extension to add a DirectLine Bot Framework bot to your SharePoint pages.
 
+![Extension Screenshot](./images/atbot-sharepoint-deployed.png)
+
 ### Building the code
 
 ```bash
