@@ -21,6 +21,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/withum-atbot-spfx-extension.sppkg"
+    "zippedPackage": "solution/directline-bot-extension.sppkg"
   }
 }
