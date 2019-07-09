@@ -3,7 +3,7 @@
   "solution": {
     "name": "Directline Bot Extension",
     "id": "c2f7a6b0-a21d-43d3-a5ed-30469cb72505",
-    "version": "1.2.1.1",
+    "version": "1.2.1.2",
     "iconPath": "gitIcon.png",
     "includeClientSideAssets": true,
     "features": [
