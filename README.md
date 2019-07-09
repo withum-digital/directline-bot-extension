@@ -1,7 +1,7 @@
 # AtBot Protype
-This is a fork of the SpFx webpart sample avilable at https://github.com/MickH3/directline-bot-extension.  Codebase has been updated to run with SpFx 1.8.2 and React.
+This is a fork of the SpFx extension sample avilable at https://github.com/MickH3/directline-bot-extension.  Codebase has been updated to run with SpFx 1.8.2 and React.
 
-## withum-atbot-spfx-extension
+## directline-bot-extension
 
 A starting point SPFx extension to add a DirectLine Bot Framework bot to your SharePoint pages.
 
@@ -22,7 +22,7 @@ This package produces the following:
 
 ## Files to be added to SharePoint
 * temp/deploy/* - all resources which should be uploaded to a CDN.
-* sharepoint/solution/withum-atbot-spfx-extension.sppkg - the SharePoint app file to be uploaded to your App Catalog
+* sharepoint/solution/directline-bot-extension.sppkg - the SharePoint app file to be uploaded to your App Catalog
 
 ## Test/Build options
 
