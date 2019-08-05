@@ -17,13 +17,16 @@ export default class ReactFooter extends React.Component<IReactFooterProps> {
 
         this.directLine = new DirectLine({ token: props.directLineToken });
 
-        // 2019-07-02 PD In order for the welcome message to be sent from AtBot to the chat window, we need to post some event.
-        // Without the hack below, the welcome message will be delayed until someone types something into the chat window and clicks "send"
+        // 2019-08-05 PD - Joe from AtBot:  We’ve made a small adjustment to the AtBot service which requires an additional step for any bot that uses a skill as the welcome message. The bot scope, which is an object you can populate with environmental information when you embed the bot, was not being sent if a skill defined the welcome message. As of an update this morning, it is required that you send the bot scope after you initialize the bot in order for the welcome message to appear. You can send default values, but it has to be sent.
         this.directLine.postActivity({
-            from: {id:this.props.upn},
             type: 'event',
-            name: 'WelcomeMessage',
-            value: 'Initialize Welcome Message'
+            value: {
+                scope: "Withum Directline Webpart",
+                uri: "//withum.directline.webpart",
+                type: "scope initialization",
+            },
+            from: {id:this.props.upn},
+            name: 'SetBotScope',
         }).subscribe(obs => {
             console.log("Welcome Message Initialized");
         });
