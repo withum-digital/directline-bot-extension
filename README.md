@@ -34,7 +34,7 @@ gulp serve --nobrowser
 ### Paste the following at the end of any SharePoint modern page in your tenant to test/debug
 > Be sure to update the properties noted in the JSON (DirectLineSecret, BotName)
 
-?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"15be81a7-b6b8-4a75-8de3-0da288492e77":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{"DirectLineSecret":"QEEDCOeNP8E.RKiF97EWPKTK3J090HeDntmqj-t9s_UteNQtDDRrmrU", "BotName": "Bot Test"}}}
+?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"15be81a7-b6b8-4a75-8de3-0da288492e77":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{"DirectLineSecret":"Direct Line Secret Here", "BotName": "Bot Name Here"}}}
 
 ### Deployment
 gulp bundle --ship
